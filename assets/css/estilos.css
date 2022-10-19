@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(../img/si.jpg);
+    background-image: url(../img/rosa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,11 +21,34 @@ main{
     margin-top: 100px;
 }
 
+.titulo{
+    width: 100%;
+    padding: 20px 10px;
+    position: center;
+    border-radius: 2px;
+    background-color: rgba(216, 27, 181, 0.5);
+
+}
+.logo{
+    background-image: url();
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+.tux{
+    background-image: url();
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 1400px;
+
+}
 .contenedor__todo{
     width: 100%;
     max-width: 800px;
     margin: auto;
-    position: relative;
+    position: center;
+
 }
 
 .caja__trasera{

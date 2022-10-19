@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login y Register</title>
+    <title>SSE</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="assets/css/estilos.css">
+    <div class="titulo"><center><h1>INSTITUTO MUNICIPAL DE LA MUJER </h1>
+    <h1>AYUNTAMIENTO CONSTITUCIONAL DE SAN JUAN BAUTISTA TUXTEPEC OAXACA
+    </h1></center></div>
+    
 </head>
-<body>
 
+<body>
+<div class="logo"> 
+    <img src="assets/img/icotrans.png" width= 150px; height= 150px; position= absolute;>
+</div>
+<div class="tux"> 
+    <img src="assets/img/tuxtrans.png" width= 200px; height= 150px; position= absolute;></div>
         <main>
 
+        
             <div class="contenedor__todo">
                 <div class="caja__trasera">
                     <div class="caja__trasera-login">
                         <h3>¿Ya tienes una cuenta?</h3>
-                        <p>Inicia sesión para entrar en la página</p>
+                        <p>Inicia sesión para poder acceder</p>
                         <button id="btn__iniciar-sesion">Iniciar Sesión</button>
                     </div>
                     <div class="caja__trasera-register">
@@ -54,6 +64,6 @@
 
         <script src="assets/js/script.js"></script>
 
-        
+             
 </body>
 </html>
