@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <div class="titulo"><center><h1>INSTITUTO MUNICIPAL DE LA MUJER </h1>
     <h1>AYUNTAMIENTO CONSTITUCIONAL DE SAN JUAN BAUTISTA TUXTEPEC OAXACA
     </h1></center></div>
@@ -17,11 +17,11 @@
 
 <body>
 <div class="logo"> 
-    <img src="assets/img/icotrans.png" width= 150px; height= 150px; position= absolute;>
+    <img src="img/icotrans.png" width= 150px; height= 150px; position= absolute;>
 </div>
 <div class="tux"> 
-    <img src="assets/img/tuxtrans.png" width= 200px; height= 150px; position= absolute;></div>
-        <main>
+    <img src="img/tuxtrans.png" width= 200px; height= 150px; position= absolute;></div>
+        <main> 
 
         
             <div class="contenedor__todo">
@@ -62,7 +62,7 @@
 
         </main>
 
-        <script src="assets/js/script.js"></script>
+        <script src="js/script.js"></script>
 
              
 </body>

@@ -29,7 +29,7 @@ session_start();
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> IMM</title>
-        <link rel="stylesheet" href="assets/css/principal.css">
+        <link rel="stylesheet" href="css/principal.css">
         <script src="https://kit.fontawesome.com/ed54238029.js" crossorigin="anonymous"></script>
     </head>
     
@@ -63,7 +63,7 @@ session_start();
                 </div>
             </a>
 <!--Formulario y registro de los datos del cliente-->
-            <a href="#">
+            <a href="registrar.html">
                 <div class="option">
                 
                     <i class="fa-solid fa-address-card" title="Registrar"></i>
@@ -74,32 +74,32 @@ session_start();
             
 
             
-            <a href="#" target="secc/servicios.php">
+            <a href="contacto.html">
                 <div class="option">
-                <i class="fa-solid fa-address-book" title="Servicios"></i>
-                    <a href="secc/servicios.php">Primer contacto</a>
+                <i class="fa-solid fa-address-book" title="Contacto"></i>
+                    <a href="contacto.html">Primer contacto</a>
                 </div>
             </a>
 
             
 
-            <a href="#">
+            <a href="agresor.html">
                 <div class="option">
-                    <i class="far fa-id-badge" title="Contacto"></i>
-                    <a href="secc/nosotros.php">Agresor</a>
+                    <i class="far fa-id-badge" title="Agresor"></i>
+                    <a href="agresor.html">Agresor</a>
                 </div>
             </a>
 
-            <a href="#">
+            <a href="reporte.html">
                 <div class="option">
-                    <i class="far fa-address-card" title="Nosotros"></i>
-                    <a href="secc/nosotros.php">Reporte</a>
+                    <i class="far fa-address-card" title="Reporte"></i>
+                    <a href="reporte.html">Reporte</a>
                 
 
                 </div>
             </a>
 
-            <a href="#">
+            <a href="php/cerrar_sesion.php">
                 <div class="option">
                     <i class="fa-sharp fa-solid fa-rectangle-xmark" title="Cerrar sesion" ></i>
                     <a href="php/cerrar_sesion.php">Cerrar sesion</a>
@@ -113,17 +113,28 @@ session_start();
    
 
     <main>
-        <h1>¡Somos Una Sociedad!</h1><br>
-        <p>Somos un organismo público descentralizado que busca transversalizar la perspectiva de género en el ámbito municipal y promover la igualdad de género a través de la prevención y atención de la violencia hacia las mujeres.?</p> <br>
-
-        <p>El instituto municipal de la mujer es una de las tantas acciones para avanzar  hacia una socciedad igualitaria a nivel municipal, buscamos Promover la igualdad de género en el Municipio de tuxtepec a través de la generación de política pública municipal con perspectiva de género y la atención integral a mujeres y sus familias que viven violencia, para revertir las dinámicas sociales que reproducen las violencias de género. </p>
-    
+    <div class="logo"> 
+    <center><img src="img/principal.png" width=1400px; height= 700px; position= center; ></center>
+</div>
+    <!--<script src="https://kit.fontawesome.com/af8a124256.js" crossorigin="anonymous"></script>
+        <h3><i class="fa-solid fa-house"></i> INICIO;</h3> Aquí encontraras los 4 campos que conforma nuestra aplicación web como son Registrar, Servicios, Contacto y Nosotros <br><br>
         
-    </main>
+        <h3><p><i class="fa-regular fa-address-card"></i> REGISTRO;</h3> En este campo se iran registrando las personas que llegan a ser violentadas, les pedirán datos como nombre del municipio, cargo o nombre de la responsable de la atención. etc</p> <br><br>
+        
+        <h3><p><i class="fa-regular fa-address-book"></i> PRIMER CONTACTO;</h3> En este campo nos mostrara los diferentes servicios que brinda el instituto municipal de la mujer como son: trabajó social, asesoría legal y atención psicologíca.</p> <br><br>
+        
+        <h3><p><i class="fa-regular fa-id-badge"></i> AGRESOR;</h3> Este campo solicitará datos del contacto como son: Entidad federativa, municipio de atención, responsable de la atención. entre otros datos.</p> <br>
+       
+        <h3><p><i class="fa-regular fa-circle-user"></i> REPORTE; </h3>En este campo solicitará los siguientes datos como son: Grado de estudios, Idioma, Grupo étnico, ocupacion, Parentesco con la persona que sufre violencia por qué la conoce y persona o ínstitucion que canaliza.etc</p> <br><br>    
+
+        <h3><p><i class="fa-regular fa-circle-xmark"></i> CERRAR SESIÓN;</h3> Una vez terminido el registro de la victimaria. esta ventana cierra sesión que dara por finalizado el registro.</p> 
+        
+        
+    </main>-->
 
         <h1></h1>
        
 
-        <script src="assets/js/principal.js"></script>
+        <script src="js/principal.js"></script>
     </body>
 </html> 
